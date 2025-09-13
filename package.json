@@ -1,0 +1,45 @@
+{
+  "name": "js-barcode-scanner",
+  "version": "1.0.1",
+  "description": "A WebAssembly barcode scanner that works with React, Vue, Angular, and vanilla JavaScript applications.",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "wasm/",
+    "utils/"
+  ],
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "prepublishOnly": "echo 'Preparing package for publishing'"
+  },
+  "keywords": [
+    "barcode",
+    "scanner",
+    "webassembly",
+    "wasm",
+    "react",
+    "vue",
+    "angular",
+    "javascript",
+    "zbar",
+    "react-hook",
+    "vanilla-js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "js-barcode-scanner": "^1.0.1"
+  }
+}
