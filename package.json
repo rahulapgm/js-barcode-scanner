@@ -1,6 +1,6 @@
 {
   "name": "js-barcode-scanner",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A WebAssembly barcode scanner that works with React, Vue, Angular, and vanilla JavaScript applications.",
   "main": "index.js",
   "module": "index.js",
