@@ -1,4 +1,4 @@
-import BarcodeScanner from './utils/barcode-scanner-opt';
+import BarcodeScanner from '../utils/barcode-scanner-opt';
 
 const BarcodeScannerPromise = BarcodeScanner({
   noInitialRun: true,

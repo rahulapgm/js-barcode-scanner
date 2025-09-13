@@ -1,11 +1,12 @@
 {
   "name": "js-barcode-scanner",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "A WebAssembly barcode scanner that works with React, Vue, Angular, and vanilla JavaScript applications.",
   "main": "index.js",
   "module": "index.js",
   "types": "index.d.ts",
   "files": [
+    "lib/",
     "index.js",
     "index.d.ts",
     "README.md",
@@ -13,8 +14,8 @@
     "utils/"
   ],
   "scripts": {
-    "build": "echo 'No build step required'",
-    "prepublishOnly": "echo 'Preparing package for publishing'"
+    "build": "babel src --out-dir lib --copy-files",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "barcode",
@@ -42,5 +43,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/rahulapgm/js-barcode-scanner.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3"
   }
 }
