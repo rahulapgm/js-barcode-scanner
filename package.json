@@ -39,7 +39,8 @@
       "optional": true
     }
   },
-  "dependencies": {
-    "js-barcode-scanner": "^1.0.1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahulapgm/js-barcode-scanner.git"
   }
 }
